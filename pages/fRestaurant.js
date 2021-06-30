@@ -51,10 +51,7 @@ export default function FRestaurant() {
 
         <section className="product-menu  mx-6 mt-4">
           <nav className="flex flex-row justify-evenly  h-14 items-center   rounded-xl">
-            <div className="flex flex-col  items-center text-red-500">
-              <i className="las la-pizza-slice  text-2xl  transform hover:scale-150  "></i>
-              <span className="font-bold text-xs">Pizzas</span>
-            </div>
+            <i className="las la-pizza-slice  text-2xl   text-red-400 transform hover:scale-150"></i>
             <i className="las la-coffee text-2xl text-red-400 transform hover:scale-150"></i>
             <i className="las la-hamburger  text-2xl text-red-400 transform hover:scale-150"></i>
             <i className="las la-hotdog  text-2xl text-red-400 transform hover:scale-150"></i>
