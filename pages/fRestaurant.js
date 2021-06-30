@@ -19,7 +19,7 @@ export default function FRestaurant() {
               </div>
               <div className="relative mr-3">
                 <div className="absolute flex right-0 top-0 w-6 h-6 text-center  text-white rounded-full bg-red-400 z-10 ">
-                  <span className="text-sm m-auto ">1</span>
+                  <span className="text-sm m-auto ">0</span>
                 </div>
                 <i className="las la-shopping-cart    right-4 text-5xl text-gray-400 "></i>
               </div>
@@ -43,7 +43,7 @@ export default function FRestaurant() {
           </div>
           <div className="relative ">
             <div className="absolute flex right-0 top-0 w-6 h-6 text-center  text-white rounded-full bg-red-400 z-10 ">
-              <span className="text-sm m-auto ">1</span>
+              <span className="text-sm m-auto ">0</span>
             </div>
             <i className="las la-shopping-cart right-4 text-5xl text-gray-400 "></i>
           </div>
@@ -60,7 +60,7 @@ export default function FRestaurant() {
 
         <section className="recomendados  mt-2">
           <div className="flex flex-col">
-            <h3 className="ml-4 my-2 font-bold text-gray-500">Recomendados</h3>
+            <h3 className="ml-4 my-2 font-bold text-gray-500">Pizzas</h3>
             <div className="cards flex flex-row flex-nowrap w-full justify-between ">
               <div className="card flex flex-col items-center bg-gray-50 drop-shadow-sm rounded-2xl mx-2 w-2/4 h-60">
                 <img src="pizza.svg" className="h-36 object-scale-down  "></img>
